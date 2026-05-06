@@ -1,0 +1,22 @@
+# sequencing / alignments
+*.bam
+*.bai
+*.sam
+*.fastq.gz
+*.fq.gz
+
+# variant files
+*.vcf
+*.vcf.gz
+
+# logs / slurm
+*.out
+*.err
+*.log
+
+# large reports
+*.html
+*.pdf
+
+# raw tool output dirs (keep curated copies instead)
+results/prokka_canu/
