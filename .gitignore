@@ -1,0 +1,29 @@
+# Raw sequencing data
+raw_data/
+trimmed_data/
+
+# Heavy assembly outputs
+assembly/**/canu_output/
+assembly/**/spades_output/
+
+# Heavy evaluation outputs
+assembly_evaluation/**/quast_*_output/
+assembly_evaluation/**/busco_*_output/
+
+# Temporary files
+tmp/
+misc/
+pipeline_state/
+
+# Logs
+*.out
+*.err
+slurm-*
+
+# Large bioinformatics files
+*.fastq.gz
+*.fq.gz
+*.bam
+*.csi
+*.fastg
+*.gfa
