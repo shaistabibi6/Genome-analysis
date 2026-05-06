@@ -18,5 +18,5 @@
 *.html
 *.pdf
 
-# raw tool output dirs (keep curated copies instead)
+# raw tool output dirs 
 results/prokka_canu/
