@@ -1,0 +1,10 @@
+tig00000001	gi|1072833967|gb|CP014529.1|	99.995	1416922	0.0	2.616e+06	1352	Enterococcus faecium	Enterococcus faecium strain E745, complete genome
+tig00000002	gi|1072836619|gb|CP014530.1|	99.812	181443	0.0	3.331e+05	1352	Enterococcus faecium	Enterococcus faecium strain E745 plasmid pl1, complete sequence
+tig00000002	gi|1250053801|gb|CP018129.1|	99.873	175449	0.0	3.227e+05	1352	Enterococcus faecium	Enterococcus faecium strain A_020709_82 plasmid unnamed1, complete sequence
+tig00000003	gi|1072836925|gb|CP014534.1|	99.747	28898	0.0	52931	1352	Enterococcus faecium	Enterococcus faecium strain E745 plasmid pl5, complete sequence
+tig00000003	gi|1546939440|emb|LR135261.1|	99.327	17823	0.0	32227	1352	Enterococcus faecium	Enterococcus faecium isolate E4457 genome assembly, plasmid: 4
+tig00000003	gi|2838882063|gb|CP111712.1|	98.360	16705	0.0	29314	1352	Enterococcus faecium	Enterococcus faecium strain VRE076 plasmid P2, complete sequence
+tig00000003	gi|2838823428|gb|CP111909.1|	97.420	16276	0.0	27723	1352	Enterococcus faecium	Enterococcus faecium strain VRE102 plasmid P3, complete sequence
+tig00000003	gi|2838478911|gb|CP112732.1|	96.996	16277	0.0	27340	1352	Enterococcus faecium	Enterococcus faecium strain VRE223 plasmid P2, complete sequence
+tig00000003	gi|2838909352|gb|CP111682.1|	97.163	15406	0.0	26024	1352	Enterococcus faecium	Enterococcus faecium strain VRE072 plasmid P2, complete sequence
+tig00000003	gi|2838508143|gb|CP112669.1|	96.949	15407	0.0	25843	1352	Enterococcus faecium	Enterococcus faecium strain VRE215 plasmid P3, complete sequence

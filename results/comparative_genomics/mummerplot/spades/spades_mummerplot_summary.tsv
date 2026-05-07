@@ -1,0 +1,7 @@
+assembly	/proj/uppmax2026-1-61/nobackup/shais/efaecium_genome_analysis/results/spades/spades_hybrid_contigs.fasta
+blast_hits	/proj/uppmax2026-1-61/nobackup/shais/efaecium_genome_analysis/assembly_evaluation/comparative_genomics/blast/spades/spades_blast_hits.tsv
+best_accession	gi|1072833967|gb|CP014529.1|
+best_species	Enterococcus faecium
+best_title	Enterococcus faecium strain E745, complete genome
+reference_fasta	/proj/uppmax2026-1-61/nobackup/shais/efaecium_genome_analysis/assembly_evaluation/comparative_genomics/mummerplot/spades/spades_closest_reference.fasta
+mummer_plot	/proj/uppmax2026-1-61/nobackup/shais/efaecium_genome_analysis/assembly_evaluation/comparative_genomics/mummerplot/spades/spades_mummerplot.png

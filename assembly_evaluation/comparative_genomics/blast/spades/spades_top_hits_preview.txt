@@ -1,0 +1,10 @@
+NODE_1_length_2057311_cov_44.385802	gi|1072833967|gb|CP014529.1|	99.988	2027857	0.0	3.743e+06	1352	Enterococcus faecium	Enterococcus faecium strain E745, complete genome
+NODE_2_length_557694_cov_53.071509	gi|1072833967|gb|CP014529.1|	99.986	452029	0.0	8.344e+05	1352	Enterococcus faecium	Enterococcus faecium strain E745, complete genome
+NODE_3_length_223476_cov_101.276715	gi|1072836619|gb|CP014530.1|	99.768	189572	0.0	3.476e+05	1352	Enterococcus faecium	Enterococcus faecium strain E745 plasmid pl1, complete sequence
+NODE_3_length_223476_cov_101.276715	gi|1250053801|gb|CP018129.1|	99.882	175445	0.0	3.228e+05	1352	Enterococcus faecium	Enterococcus faecium strain A_020709_82 plasmid unnamed1, complete sequence
+NODE_4_length_140172_cov_37.161829	gi|1072833967|gb|CP014529.1|	99.998	140173	0.0	2.588e+05	1352	Enterococcus faecium	Enterococcus faecium strain E745, complete genome
+NODE_4_length_140172_cov_37.161829	gi|3018342010|gb|CP195298.1|	99.996	120556	0.0	2.226e+05	1352	Enterococcus faecium	Enterococcus faecium strain E1162 chromosome, complete genome
+NODE_4_length_140172_cov_37.161829	gi|1008420998|gb|CP014449.1|	99.981	118839	0.0	2.193e+05	1352	Enterococcus faecium	Enterococcus faecium strain ATCC 700221, complete genome
+NODE_4_length_140172_cov_37.161829	gi|2839028363|gb|CP111403.1|	99.990	113622	0.0	2.098e+05	1352	Enterococcus faecium	Enterococcus faecium strain VRE032 chromosome, complete genome
+NODE_4_length_140172_cov_37.161829	gi|2839695683|gb|CP111285.1|	99.993	107750	0.0	1.989e+05	1352	Enterococcus faecium	Enterococcus faecium strain VRE016 chromosome, complete genome
+NODE_4_length_140172_cov_37.161829	gi|1546939371|emb|LR135482.1|	99.993	107750	0.0	1.989e+05	1352	Enterococcus faecium	Enterococcus faecium isolate E4456 genome assembly, chromosome: 1
