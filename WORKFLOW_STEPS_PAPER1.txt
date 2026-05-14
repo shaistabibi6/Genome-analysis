@@ -1,0 +1,89 @@
+Paper I Workflow: Zhang et al. 2017 - Enterococcus faecium E745
+
+1. Data organization
+- Created project folders for raw data, assembly, evaluation, annotation, mapping, comparative genomics, and expression analysis.
+- Linked genomic and transcriptomic data from the course directory instead of copying large files.
+
+2. Genome assembly
+- Canu was used for PacBio long-read assembly.
+- SPAdes was used as an additional hybrid assembly using Illumina and long reads.
+
+3. Assembly evaluation
+- QUAST was used to compare assembly statistics such as contig number, total length, N50, and GC content.
+- BUSCO was used to evaluate genome completeness.
+
+4. Genome mapping evaluation
+- Illumina DNA reads were mapped back to Canu and SPAdes assemblies using BWA/BWA-MEM2.
+- SAMtools was used to sort, index, and generate flagstat reports.
+- SPAdes showed stronger short-read support, while Canu showed better contiguity.
+
+5. Comparative genomics
+- Enterococcus faecium strain E745 was used as the reference genome for comparative analysis.
+- MUMmerplot was used for synteny comparison between assemblies and the reference genome.
+
+6. Structural annotation
+- Prokka was used to annotate Canu and SPAdes assemblies.
+- Outputs included GFF, FAA, FFN, TSV, GBK, and summary TXT files.
+
+7. Functional annotation
+- EggNOG-mapper was run on Prokka protein files.
+- UPPMAX central eggNOG database resources were linked and used.
+- Functional annotations included COG, KEGG, GO, PFAM, and ortholog information.
+
+8. RNA-seq data preparation
+- RNA-seq data from BHI and Serum conditions were located in the course transcriptomics folder.
+- Three BHI replicates and three Serum replicates were used.
+- Paired reads and singleton reads were kept separate.
+
+9. RNA-seq alignment
+- RNA-seq reads were mapped against both Canu and SPAdes assemblies using BWA-MEM2.
+- SAMtools was used to sort, index, and generate mapping statistics.
+- Paired-end RNA mappings were used as the main analysis.
+- Singleton RNA mappings were kept as secondary analysis.
+
+10. Read counting
+- HTSeq was used to count reads mapped to CDS features.
+- Prokka GFF files were cleaned by removing FASTA sections.
+- Counts were generated separately for:
+  - paired_reads/canu
+  - paired_reads/spades
+  - single_reads/canu
+  - single_reads/spades
+
+11. Differential expression analysis
+- DESeq2 was used in R.
+- Main comparison: Serum vs BHI.
+- DESeq2 was run separately for Canu and SPAdes paired-read count tables.
+- Outputs included:
+  - DESeq2 result CSV files
+  - normalized count tables
+  - PCA plots
+  - MA plots
+
+12. DEG interpretation
+- Significant genes were filtered using adjusted p-value and log2 fold change.
+- Top differentially expressed genes were connected to Prokka and EggNOG annotations.
+- Important genes included:
+  - purH: purine biosynthesis
+  - purL: purine biosynthesis
+  - dppE: dipeptide ABC transporter
+  - msmX: ABC transporter ATP-binding protein
+  - folT: folate transporter
+  - queT: queuosine precursor transporter
+  - adhE: aldehyde-alcohol dehydrogenase
+  - accA: fatty acid biosynthesis
+
+13. Biological interpretation
+- Serum growth induced strong metabolic adaptation.
+- Purine biosynthesis genes were strongly upregulated.
+- Transport systems were activated, suggesting increased nutrient uptake in serum.
+- Results are consistent with the main biological findings of Zhang et al. 2017.
+
+14. Files uploaded to GitHub
+- SLURM scripts
+- R scripts
+- HTSeq count tables
+- DESeq2 result files
+- normalized count matrices
+- PCA and MA plots
+- workflow documentation
