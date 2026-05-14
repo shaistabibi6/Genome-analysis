@@ -1,0 +1,9 @@
+Gene_ID	Gene_name	Function	Biological_interpretation
+AENJPLPP_01557	queT	Queuosine precursor transporter	Potential translational and stress adaptation during serum growth
+AENJPLPP_02292	dppE	Dipeptide-binding ABC transporter	Increased peptide uptake and nutrient scavenging in serum
+AENJPLPP_00582	purH	Purine biosynthesis protein	Enhanced nucleotide biosynthesis during serum adaptation
+AENJPLPP_01633	adhE	Aldehyde-alcohol dehydrogenase	Metabolic and redox adaptation during serum growth
+AENJPLPP_02308	msmX	ABC transporter ATP-binding protein	Increased carbohydrate and nutrient transport
+AENJPLPP_02310	folT	Folate transporter	Altered cofactor and vitamin uptake in serum
+AENJPLPP_00586	purL	Purine biosynthesis enzyme	Supports purine synthesis during serum growth
+AENJPLPP_00828	accA	Fatty acid biosynthesis protein	Potential membrane and lipid metabolism adaptation
